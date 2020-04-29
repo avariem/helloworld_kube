@@ -1,0 +1,14 @@
+apiversion: v1
+kind: Pod
+metadata: 
+	name: helloworld-app-pod
+	labels:
+		name: helloworld-app-pod
+		app: demo-helloworld-app-pod
+	
+spec:
+	containers:
+		name: helloworld-app
+		image: ajithmv1986/helloworld
+		ports:
+			containerPort:80
