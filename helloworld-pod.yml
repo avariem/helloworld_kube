@@ -4,7 +4,7 @@ metadata:
 	name: helloworld-app-pod
 	labels:
 		name: helloworld-app-pod
-		app: demo-helloworld-app-pod
+		app: demo-helloworld-app
 	
 spec:
 	containers:
